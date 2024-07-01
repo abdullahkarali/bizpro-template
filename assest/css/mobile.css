@@ -1,0 +1,171 @@
+@media only screen and (min-width: 0px) {
+    header nav ul {
+        display: none;
+    }
+
+    .slider {
+        height: 640px;
+    }
+}
+
+/* Mobil ekranlar için 576px'e kadar buradaki kodlar geçerli */
+@media only screen and (max-width: 576px) {
+    .maps iframe {
+        width: 100%;
+    }
+
+    .head-titles {
+        padding: 48px 0 0;
+    }
+
+    .head-titles .head-subtitle {
+        margin: 60px 16px 28px;
+    }
+
+    .team .single-team {
+        margin-top: 0;
+    }
+
+    .team .single-team .single-team-img .img-content .img-content-name {
+        font-size: 22px;
+    }
+
+    .team .single-team .single-team-img .img-content .img-content-title {
+        font-size: 20px;
+    }
+
+    .pricing {
+        padding: 48px 0;
+        margin-top: 48px;
+    }
+
+    .pricing .single-pricing {
+        margin-bottom: 24px;
+    }
+
+    .brands {
+        margin-top: 48px;
+    }
+
+    .contact {
+        margin: 48px 0 48px;
+    }
+
+    .scroll-top {
+        right: 5px;
+        bottom: 20px;
+    }
+
+    .blog-details-page .blog-details-post-wrapper .list-img-wrapper,
+    .blog-details-page .blog-details-post-wrapper .post-share {
+        display: block !important;
+    }
+
+    .blog-details-page .blog-details-post-wrapper .list-img-wrapper ul {
+        margin-top: 32px !important;
+        padding-left: 0 !important;
+    }
+
+    .blog-details-page .blog-details-post-wrapper .post-share .share {
+        margin-bottom: 16px;
+    }
+
+    .blog-details-page .blog-details-post-wrapper .comment-area .comment-wrapper .reply-comment {
+        margin-left: 60px !important;
+    }
+
+    .blog-details-page .blog-details-post-wrapper .list-img-wrapper>img {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (max-width: 768px) {
+    .project .project-menu {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+    header nav {
+        display: flex;
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+    header nav ul li {
+        padding: 8px 12px;
+    }
+
+    header .toggle-menu {
+        display: none;
+    }
+
+    .slider {
+        height: 850px;
+    }
+}
+
+/* Tablet ekranları için 576px ve 1200px arasında geçerli */
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .head-titles .head-subtitle {
+        margin: 60px 48px 28px;
+    }
+
+    .team .single-team .single-team-img .img-content .img-content-name {
+        font-size: 20px;
+    }
+
+    .team .single-team .single-team-img .img-content .img-content-title {
+        font-size: 18px;
+    }
+
+}
+
+/* Hem mobilde hem tablette geçerli kodlar için */
+@media only screen and (max-width: 1200px) {
+    .about-us .single-about-content {
+        margin: 28px 0 48px;
+    }
+
+    .project .project-gallery .project-gallery-item .single-img .img-hover .img-hover-border .img-hover-subtitle ul {
+        flex-wrap: wrap;
+    }
+
+    .team .single-team .single-team-img .img-content {
+        padding-top: 32px;
+    }
+
+    .team .single-team:hover .single-team-img .img-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill .skill-content {
+        padding-top: 24px;
+    }
+
+    .blog-details-page .right-block .right-block-post .single-post {
+        justify-content: start !important;
+    }
+
+    .blog-details-page .right-block .right-block-search input,
+    .blog-details-page .right-block .right-block-search button {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header nav ul li {
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {}
